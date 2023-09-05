@@ -221,6 +221,15 @@ font-weight: 600px;
     font-weight: 600px;
     }
 
+    .instant-play{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+.instant-play img{
+    width: 50%;
+    text-align: center;
+}
 
 
 }
