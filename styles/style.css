@@ -158,6 +158,37 @@ font-weight: 600px;
     right: 100px;
 }
 
+/* ============== game type section =============================  */
+
+
+.game-type1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-name{
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
