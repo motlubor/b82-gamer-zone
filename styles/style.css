@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-gamer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-gamer h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-left: 1.5em;
+    margin-top: 2em;
+}
+
+.header-gamer img {
+    margin-left: 1.5em;
+    margin-top: 5em;
+}
+
+.pink-text {
+    color: #FF42A5;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2.5em;
+    margin-top: 5em;
+    font-size: 1.3em;
+    list-style-type: none;
+}
+
+.header-nav ul>li:hover {
+    border: 0;
+    border-radius: 2em;
+    padding: 0.2em 0.3em;
+    background-color: rgba(11, 2, 35, 0.10);
+    ;
+}
+
+.header-nav ul>li>a {
+    text-decoration: none;
+    color: #3C354F;
+}
+.svg{
+    margin: 0.5em;
+}
