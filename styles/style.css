@@ -113,10 +113,29 @@ font-weight: 600;
     border-radius: 0.5em;
 }
 
+/* ============== funny videos section =========== */
+
+.video-description{
+    text-align: center;
+    margin-top: 50px;
+}
+.video-description h2{
+font-size: 40px;
+margin-bottom: 10px;
+font-weight: 600px;
+}
 
 
-
-
+.games-video{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-start: auto;
+    gap: 1em;
+    margin: 50px 15px;
+}
+.games-video img{
+    width: 97%;
+}
 
 
 
@@ -180,4 +199,16 @@ font-weight: 600;
     width: 80%;
     margin: auto;
 }
+.games-video{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)
+}
+.video-description h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600px;
+    }
+
+
+
 }
