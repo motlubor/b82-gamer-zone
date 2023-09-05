@@ -142,10 +142,12 @@ font-weight: 600px;
     display: flex;
     justify-content:space-around;
     align-items: center;
+
 }
 
 .instant-description{
     text-align: center;
+    margin-bottom: 50px;
 }
 .instant-description h2{
     font-size: 40px;
@@ -231,5 +233,20 @@ font-weight: 600px;
     
 }
 
+.rel-img{
+    width: 50%;
+}
 
+.relative-image{
+   
+    position: relative;
+    top: -130px;
+    right: 20px;
+    
+}
+
+.instant-image{
+    width: 80%;
+    margin: auto;
+}
 }
