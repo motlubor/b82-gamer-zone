@@ -63,10 +63,12 @@ header {
 
 /* ======================= Banner Section ======================  */
 
-.banner {
-    display: flex;
+.banner{
+        display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-image: url("../images/group14.png");
+
 }
 
 .banner-description h2{
@@ -109,3 +111,4 @@ font-weight: 600;
     margin: 3em 1em;
     border-radius: 0.5em;
 }
+
