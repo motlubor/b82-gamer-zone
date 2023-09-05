@@ -8,6 +8,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 6em;
 }
 
 .header-gamer {
@@ -56,4 +57,13 @@ header {
 }
 .svg{
     margin: 0.5em;
+    text-align: center;
+}
+
+/* ======================= Banner Section ======================  */
+
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
