@@ -136,13 +136,25 @@ font-weight: 600px;
 .games-video img{
     width: 97%;
 }
+/* ======================= instant play ===================== */
 
+.instant-play{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
 
-
-
-
-
-
+.instant-description{
+    text-align: center;
+}
+.instant-description h2{
+    font-size: 40px;
+}
+.relative-image{
+    position: relative;
+    top: -280px;
+    right: 100px;
+}
 
 
 
